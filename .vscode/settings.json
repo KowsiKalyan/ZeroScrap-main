@@ -1,0 +1,6 @@
+{
+    "vscode-corda.isCordaProject": false,
+    "java.project.sourcePaths": [
+        "lib/controller"
+    ]
+}
