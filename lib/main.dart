@@ -14,6 +14,7 @@ Future main(List<String> args) async {
 }
 
 String? token;
+var user;
 checkLogin() async {
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
   token = sharedPreferences.getString(Constants.authToken);
